@@ -13,7 +13,6 @@ function Home() {
         </div>
       </div>
       <div>
-        <Home />
         <h2> Adevent Calendar</h2>
         <SimpleSlider/>
       </div>
