@@ -1,14 +1,12 @@
-import './App.css'
-import PageCluedo from './pages/PageCluedo'
-
+import './App.css';
+import { Outlet } from 'react-router-dom';
 function App() {
 
   return (
     
       
     <>
-    <PageCluedo />
-    
+      <Outlet />
     </>
   )
 }

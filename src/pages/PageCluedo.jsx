@@ -33,5 +33,5 @@ function PageCluedo() {
  </article>
 </div>
 </>
-)};
+)}
 export default PageCluedo;
