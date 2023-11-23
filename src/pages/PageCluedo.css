@@ -7,36 +7,53 @@
 }
 
 .img{
-   border: solid;
-   max-height: 20rem; 
+   max-height: 20rem;
 }
 
 
 .explication {
     background-color :#1C1C1C;
     color: #D9B01C;
-    border: solid 1px;
+    text-align: center;
+    font-size: large;
 
+}
+.explication > h1{
+    text-align: left;
+    margin-left: 1rem;
 }
 .word-tof {
     max-width: 5rem;
     max-height: 5rem;
+   
 }
 .avis {
+    text-align: left;
     color: #D9B01C;
+    font-size: large;
     justify-content: space-around;
+}
+.avis h1{
+    margin-top: 2rem;
+    margin-left: 1rem;
 }
 
 .article1 {
+    font-size: large;
+    text-align: center;
     color: #D9B01C;
     background-color :#1C1C1C;
-    border: solid 1px;
     margin-bottom: 1rem;
+    
 }
 .article2 {
+    font-size: large;
+    text-align: center;
     background-color :#1C1C1C;
-    border: solid 1px;
-    color: #D9B01C;    
+    color: #D9B01C;   
 }
 
+h5{
+    font-size: medium;
+}
 
