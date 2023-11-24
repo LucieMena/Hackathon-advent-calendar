@@ -4,6 +4,7 @@
     color: #D9B01C;
     display: block;
     flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .img-detective{
     max-height: 20rem;
@@ -20,6 +21,7 @@
 }
 
 .explication {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color :#1C1C1C;
     color: #D9B01C;
     text-align: center;
@@ -27,6 +29,7 @@
 
 }
 .explication > h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
     margin-left: 1rem;
 }
@@ -43,6 +46,7 @@
     justify-content: center;
 }
 button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #D9B01C;
     background-color :#1C1C1C;
     font-size: 1.5rem;
@@ -52,17 +56,20 @@ button {
     
 }
 .avis {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
     color: #D9B01C;
     font-size: large;
     justify-content: space-around;
 }
 .avis h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 6rem;
     margin-left: 1rem;
 }
 
 .article1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 5rem;
     font-size: x-large;
     text-align: center;
@@ -72,6 +79,7 @@ button {
     
 }
 .article2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
     text-align: center;
     background-color :#1C1C1C;
@@ -79,13 +87,10 @@ button {
     margin-bottom: 1rem;  
 }
 .article3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
     text-align: center;
     background-color :#1C1C1C;
     color: #D9B01C;   
-}
-
-h5{
-    font-size: medium;
 }
 

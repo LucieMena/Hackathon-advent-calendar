@@ -34,7 +34,7 @@ function PageCluedo() {
           </button>
           </div>
           {toutouVisible && <img src={tidus} alt="Toutou" className="img" />}
-          <p>Tu pourrais commencer par aller voir la Mère Michelle ? &#x1F606;</p>
+          <p>Tu pourrai commencer par aller voir la Mère Michelle ? &#x1F606;</p>
         </figcaption>
       </div>
       <div className="avis">
