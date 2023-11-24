@@ -21,7 +21,7 @@ function PageCluedo() {
         <figcaption className="explication">
           <h1>Accessoires : </h1>
           <div className="scenar-set">
-          <button type="button" className="scenar-button">Télécharge le scénario !&#x1F609; </button>
+          <button type="button" className="scenar-button">Télécharge le scénario !&#x1F609;<img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/lock-portrait.png" alt="lock-portrait"/> </button>
           </div>
           <h1>Explications : </h1>
           <p>Aide le Père Michel qui a perdu son chien ! Il n'a pas l'air d'être dans la maison, ni dans le jardin, où a t-il pu aller &#128551; ?!  Avec l'aide de
