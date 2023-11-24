@@ -34,7 +34,7 @@ const SimpleSlider = () => {
           <div onClick={() => navigate("/PageCluedo")}>
             <h3 className="slide-2">27 DECEMBRE</h3>
           </div>
-          <div>
+          <div onClick={() => navigate("/BlindTestCocktail")}>
             <h3 className="slide-3">28 DECEMBRE</h3>
           </div>
           <div>

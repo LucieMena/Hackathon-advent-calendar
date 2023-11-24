@@ -58,6 +58,7 @@ body{
   animation-duration: 11s;
 }
 h2 {
+
   color : #D9B01C;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -69,4 +70,9 @@ margin-top: 0;
   text-align:end;
   font-weight: 700;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.date-container {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
 }

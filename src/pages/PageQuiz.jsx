@@ -1,9 +1,15 @@
+import Quiz from "../components/Quiz";
+import "./pagequiz.css";
+
+function PageQuiz () {
 
 
-function PageQuiz() {
-  return (
-    <div>PageQuiz</div>
-  )
+    return( 
+        <main>
+            <h1 className="titre">QUIZ</h1>
+            <Quiz />
+        </main>
+    )
 }
 
 export default PageQuiz
