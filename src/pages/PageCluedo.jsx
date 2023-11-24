@@ -29,7 +29,7 @@ function PageCluedo() {
             de le retrouver !
           </p>
           <div className="button-set">
-          <button onClick={handleToutouToggle}>
+          <button className="button-toutou" onClick={handleToutouToggle}>
             {toutouVisible ? "Cacher Toutou" : "Voir Toutou"}
           </button>
           </div>
