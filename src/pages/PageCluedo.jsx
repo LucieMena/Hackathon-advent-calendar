@@ -29,11 +29,11 @@ function PageCluedo() {
             de le retrouver !
           </p>
           <div className="button-set">
-          <button onClick={handleToutouToggle}>
+          <button className="button-toutou" onClick={handleToutouToggle}>
             {toutouVisible ? "Cacher Toutou" : "Voir Toutou"}
           </button>
           </div>
-          {toutouVisible && <img src={tidus} alt="Toutou" className="img" />}
+          {toutouVisible && <img src={tidus} alt="Toutou" className="img-tidus" />}
           <p>Tu pourrai commencer par aller voir la Mère Michelle ? &#x1F606;</p>
         </figcaption>
       </div>
