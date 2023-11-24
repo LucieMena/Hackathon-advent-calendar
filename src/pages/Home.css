@@ -1,18 +1,73 @@
+:root {
+  --couleur-rouge: #e74c3c; /* Rouge festif */
+  --couleur-vert: #2ecc71; /* Vert festif */
+  --couleur-blanc: #ffffff; /* Blanc */
+  --couleur-or: #ffd700; /* Or */
+  --couleur-argent: #c0c0c0; /* Argent */
+  --couleur-bleu-fonce: #001f3f; /* Bleu foncé pour l'ambiance hivernale */
+}
 body{
-  background-color: #1C1C1C;
-  color : #D9B01C;
-  font-family: "Open Sans", sans-serif;
+  /* background-color: var(--couleur-bleu-fonce); */
+  background-image: url(../src/assets/flocons.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* */
+  color:#D9B01C;
+}
+@keyframes snowfall {
+  from {
+    transform: translateY(-100vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
 }
 
-h4 {
-  font-size: 35px;
-  color : #D9B01C;
+.snowflake {
+  position: absolute;
+  background-image:url(../src/assets/flocon.png);
+  width: 22px; /* Ajustez la taille selon vos besoins */
+  height: 22px; /* Ajustez la taille selon vos besoins */
+  animation: snowfall linear infinite;
+  z-index: 1;
 }
 
+/* Ajoutez plusieurs flocons de neige avec différentes positions aléatoires */
+.snowflake:nth-child(1) {
+  left: 5%;
+  animation-duration: 10s;
+}
+
+.snowflake:nth-child(2) {
+  left: 25%;
+  animation-duration: 8s;
+}
+
+.snowflake:nth-child(3) {
+  left: 50%;
+  animation-duration: 12s;
+}
+
+.snowflake:nth-child(4) {
+  left: 75%;
+  animation-duration: 9s;
+}
+
+.snowflake:nth-child(5) {
+  left: 95%;
+  animation-duration: 11s;
+}
 h2 {
-  margin-bottom: 5%;
+
+  color : #D9B01C;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-@media screen and (min-width: 768px) {
-
+.login{
+ color:#D9B01C;
+padding: 0;
+margin-top: 0;
+  font-size: 20px;
+  text-align:end;
+  font-weight: 700;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
