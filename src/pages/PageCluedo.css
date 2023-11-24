@@ -10,7 +10,7 @@
     max-height: 20rem;
  }
 
-.img{
+.img-tidus{
    height: 20rem;
    width: 20rem;
    border-radius: 10px;
@@ -33,14 +33,7 @@
     text-align: left;
     margin-left: 1rem;
 }
-.word-tof {
-    max-width: 5rem;
-    max-height: 5rem;
-    transition: opacity 0.3s ease-in-out;
-}
-.word-tof:hover {
-    opacity: 0.7; 
-}
+
 .button-set{
     display: flex;
     justify-content: center;
