@@ -7,7 +7,6 @@
 }
 .img-detective{
     max-height: 20rem;
-    
  }
 
 .img{
@@ -15,7 +14,10 @@
    width: 20rem;
    border-radius: 10px;
 }
-
+.scenar-set{
+    display: flex;
+    justify-content: center;
+}
 
 .explication {
     background-color :#1C1C1C;

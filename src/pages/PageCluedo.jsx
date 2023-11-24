@@ -20,12 +20,9 @@ function PageCluedo() {
       <div>
         <figcaption className="explication">
           <h1>Accessoires : </h1>
-          <p>Télécharge le scénario !&#x1F609; </p>
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3bDbiE_WCI5nGWNy05rBG5uLUE3N4_paLNg&usqp=CAU"
-            className="word-tof"
-            alt="une-image"
-          ></img>
+          <div className="scenar-set">
+          <button type="button" className="scenar-button">Télécharge le scénario !&#x1F609; </button>
+          </div>
           <h1>Explications : </h1>
           <p>Aide le Pere Michel qui a perdu son chien ! Il n'à pas l'air d'être dans la maison, ni dans le jardin, où a t'il pu aller &#128551; ?!  Avec l'aide de
             Papa et Maman (et du scénario !) réalise ta première enquête afin
