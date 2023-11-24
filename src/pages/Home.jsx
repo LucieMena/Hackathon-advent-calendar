@@ -16,7 +16,7 @@ function Home() {
       <h2> Advent Calendar</h2>
       {/* <img className="chaine1" src={logo} alt="seinen" /> */}
       <div className="main">
-        <div className="app">
+        <div className="apptimer">
           <div className="snowflake" />
           <div className="container">
             <h1 className="header">Happy New Year in</h1>

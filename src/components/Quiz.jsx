@@ -12,8 +12,6 @@ import image7 from "../assets/5.svg";
 import image8 from "../assets/6.svg";
 import image9 from "../assets/7.svg";
 
-
-
 export default function Quiz() {
   const questions = [
     {
@@ -56,42 +54,65 @@ export default function Quiz() {
       questionText: "Quelle est le logo de react ? ",
 
       answerOptions: [
-        { answerText: <img className="abricot" src={image3} alt="" />, isCorrect: false },
-        { answerText: <img className="abricot" src={image4} alt="" />, isCorrect: false },
-        { answerText: <img className="abricot" src={image5} alt="" />, isCorrect: false },
-        { answerText: <img src={logo} className="abricot"
-        alt="" />, isCorrect: true },
+        {
+          answerText: <img className="abricot" src={image3} alt="" />,
+          isCorrect: false,
+        },
+        {
+          answerText: <img className="abricot" src={image4} alt="" />,
+          isCorrect: false,
+        },
+        {
+          answerText: <img className="abricot" src={image5} alt="" />,
+          isCorrect: false,
+        },
+        {
+          answerText: <img src={logo} className="abricot" alt="" />,
+          isCorrect: true,
+        },
       ],
     },
 
     {
-        questionText: <img src={image}></img>,
-        
-        answerOptions: [
-          { answerText: "Starmania", isCorrect: false },
-          { answerText: "Starbuck's", isCorrect: true },
-          { answerText: "Schtroumpf", isCorrect: false },
-          { answerText: "Stormtrooper", isCorrect: false },
-        ],
-      },
+      questionText: <img src={image}></img>,
 
-      {
-        questionText: "Quelle famille va coder pendant les fêtes de fin d'année ? ",
-  
-        answerOptions: [
-          { answerText: <img className="jimmy" src={image6} alt="" />, isCorrect: false },
-          { answerText: <img className="jimmy" src={image7} alt="" />, isCorrect: false },
-          { answerText: <img className="jimmy" src={image8} alt="" />, isCorrect: true },
-          { answerText: <img className="jimmy" src={image9} alt="" />, isCorrect: false },
-        ],
-      },
+      answerOptions: [
+        { answerText: "Starmania", isCorrect: false },
+        { answerText: "Starbuck's", isCorrect: true },
+        { answerText: "Schtroumpf", isCorrect: false },
+        { answerText: "Stormtrooper", isCorrect: false },
+      ],
+    },
+
+    {
+      questionText:
+        "Quelle famille va coder pendant les fêtes de fin d'année ? ",
+
+      answerOptions: [
+        {
+          answerText: <img className="jimmy" src={image6} alt="" />,
+          isCorrect: false,
+        },
+        {
+          answerText: <img className="jimmy" src={image7} alt="" />,
+          isCorrect: false,
+        },
+        {
+          answerText: <img className="jimmy" src={image8} alt="" />,
+          isCorrect: true,
+        },
+        {
+          answerText: <img className="jimmy" src={image9} alt="" />,
+          isCorrect: false,
+        },
+      ],
+    },
   ];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
 
-  
   const handleAnswerButtonClick = (isCorrect) => {
     if (isCorrect) {
       setScore(score + 1);
@@ -106,36 +127,37 @@ export default function Quiz() {
   };
 
   return (
-    <div className="app">
-      {showScore ? (
-        <div className="score-section">
-          Votre score est de {score} sur {questions.length}
-        </div>
-      ) : (
-        <>
-          <div className="question-section">
-            <div className="question-count">
-              <span>Question {currentQuestion + 1}</span>/{questions.length}
-            </div>
-            <div className="question-text">
-              {questions[currentQuestion].questionText}
-            </div>
+    <div className="appquizContainer">
+      <div className="appquiz">
+        {showScore ? (
+          <div className="score-section">
+            Votre score est de {score} sur {questions.length}
           </div>
-          <div className="answer-section">
-            {questions[currentQuestion].answerOptions.map(
-              (answerOptions) => (
-                <button key={answerOptions}
+        ) : (
+          <>
+            <div className="question-section">
+              <div className="question-count">
+                <span>Question {currentQuestion + 1}</span>/{questions.length}
+              </div>
+              <div className="question-text">
+                {questions[currentQuestion].questionText}
+              </div>
+            </div>
+            <div className="answer-section">
+              {questions[currentQuestion].answerOptions.map((answerOptions) => (
+                <button
+                  key={answerOptions}
                   onClick={() =>
                     handleAnswerButtonClick(answerOptions.isCorrect)
                   }
                 >
                   {answerOptions.answerText}
                 </button>
-              )
-            )}
-          </div>
-        </>
-      )}
+              ))}
+            </div>
+          </>
+        )}
+      </div>
     </div>
   );
 }

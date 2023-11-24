@@ -15,26 +15,16 @@
 .titre {
     color: #D9B01C;
     font-weight:bolder;
-    font-size:400%;
-
-    
-        animation: animate 3s linear infinite;
-      } 
-       
-      @keyframes animate{
-        0%{
-          opacity: 0;
-        }
-        50%{
-          opacity: 2.5;
-        }
-        100%{
-          opacity: 0;
-        }
-      
+    font-size:60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 
 }
 
+.appquizContainer {
+  display: flex;
+  justify-content: center;
+}
 
 #root {
     max-width: 1280px;
@@ -43,7 +33,7 @@
     text-align: center;
   }
   
-  body {
+  /*body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -54,12 +44,12 @@
   * {
     font-family: "Verdana", cursive, sans-serif;
     color: #ffffff;
-  }
+  }*/
   
-  body {
+  .bodyquiz {
     /*background-color: #7cc6fe;*/
     /*background-image: url("../assets/backimgquiz.jpg") ;*/
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
       to bottom,
       rgba(0, 51, 51, 0.4),
       rgba(0, 51, 51, 0.4)
@@ -71,18 +61,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100vh; */
   }
   
-  .app {
+  .appquiz {
     background-color: #434f43;
     width: 550px;
     height: 400px;
     border-radius: 15px;
     padding: 20px;
+    margin-top: 5rem;
     box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
     display: flex;
     justify-content: space-evenly;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+    /*background-image: linear-gradient(
+      to bottom,
+      rgba(0, 51, 51, 0.4),
+      rgba(0, 51, 51, 0.4)
+    ),url("../assets/christmas-background-2.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;*/
   }
   
   .score-section {
