@@ -5,7 +5,7 @@ function PageQuiz () {
 
 
     return( 
-        <main className="idf">
+        <main>
             <Quiz />
         </main>
     )
