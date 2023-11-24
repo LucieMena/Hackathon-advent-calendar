@@ -6,6 +6,7 @@ import './index.css';
 import Home from './pages/Home';
 import PageCluedo from './pages/PageCluedo';
 import PageQuiz from './pages/PageQuiz';
+import BlindTestCocktail from './pages/BlindTestCocktail.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,12 @@ const router = createBrowserRouter([
         path: "/PageQuiz",
         element: <PageQuiz />,
       },
+
+      {
+        path: "/BlindTestCocktail",
+        element: <BlindTestCocktail />,
+      },
+
     ],
   },
 ]);

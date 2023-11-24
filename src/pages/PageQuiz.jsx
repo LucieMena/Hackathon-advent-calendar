@@ -6,6 +6,7 @@ function PageQuiz () {
 
     return( 
         <main>
+            <h1 className="titre">QUIZ</h1>
             <Quiz />
         </main>
     )

@@ -69,9 +69,9 @@ export default function Quiz() {
         
         answerOptions: [
           { answerText: "Starmania", isCorrect: false },
+          { answerText: "Starbuck's", isCorrect: true },
           { answerText: "Schtroumpf", isCorrect: false },
           { answerText: "Stormtrooper", isCorrect: false },
-          { answerText: "Starbuck's", isCorrect: true },
         ],
       },
 
@@ -81,8 +81,8 @@ export default function Quiz() {
         answerOptions: [
           { answerText: <img className="jimmy" src={image6} alt="" />, isCorrect: false },
           { answerText: <img className="jimmy" src={image7} alt="" />, isCorrect: false },
-          { answerText: <img className="jimmy" src={image8} alt="" />, isCorrect: false },
-          { answerText: <img className="jimmy" src={image9} alt="" />, isCorrect: true },
+          { answerText: <img className="jimmy" src={image8} alt="" />, isCorrect: true },
+          { answerText: <img className="jimmy" src={image9} alt="" />, isCorrect: false },
         ],
       },
   ];

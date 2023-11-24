@@ -1,0 +1,27 @@
+.titrebtc {
+    color: #D9B01C;
+    font-weight:bolder;
+    font-size:300%;
+
+    
+        animation: animate 3s linear infinite;
+      } 
+       
+      @keyframes animate{
+        0%{
+          opacity: 0;
+        }
+        50%{
+          opacity: 2.5;
+        }
+        100%{
+          opacity: 0;
+        }
+      
+
+}
+
+.pk-pin-it-ready {
+    width: 50%;
+    height: 50%;
+}
