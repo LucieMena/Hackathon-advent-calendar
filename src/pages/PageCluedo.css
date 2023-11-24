@@ -5,9 +5,15 @@
     display: block;
     flex-direction: column;
 }
+.img-detective{
+    max-height: 20rem;
+    
+ }
 
 .img{
-   max-height: 20rem;
+   height: 20rem;
+   width: 20rem;
+   border-radius: 10px;
 }
 
 
@@ -25,7 +31,23 @@
 .word-tof {
     max-width: 5rem;
     max-height: 5rem;
-   
+    transition: opacity 0.3s ease-in-out;
+}
+.word-tof:hover {
+    opacity: 0.7; 
+}
+.button-set{
+    display: flex;
+    justify-content: center;
+}
+button {
+    color: #D9B01C;
+    background-color :#1C1C1C;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    
 }
 .avis {
     text-align: left;
@@ -34,12 +56,13 @@
     justify-content: space-around;
 }
 .avis h1{
-    margin-top: 2rem;
+    margin-top: 6rem;
     margin-left: 1rem;
 }
 
 .article1 {
-    font-size: large;
+    margin-top: 5rem;
+    font-size: x-large;
     text-align: center;
     color: #D9B01C;
     background-color :#1C1C1C;
@@ -47,6 +70,13 @@
     
 }
 .article2 {
+    font-size: large;
+    text-align: center;
+    background-color :#1C1C1C;
+    color: #D9B01C; 
+    margin-bottom: 1rem;  
+}
+.article3 {
     font-size: large;
     text-align: center;
     background-color :#1C1C1C;
