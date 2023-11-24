@@ -13,7 +13,7 @@ function Home() {
       <div className="snowflake" />
       <p className="login">Login</p>
       <p className="login">Sign up</p>
-      <h2> Adevent Calendar</h2>
+      <h2> Advent Calendar</h2>
       {/* <img className="chaine1" src={logo} alt="seinen" /> */}
       <div className="main">
         <div className="app">
@@ -21,7 +21,12 @@ function Home() {
           <div className="container">
             <h1 className="header">Happy New Year in</h1>
             <Timer deadline="November,29, 2023" />
+            <div className="snowflake" />
           </div>
+          <div className="snowflake" />
+          <div className="snowflake" />
+          <div className="snowflake" />
+          <div className="snowflake" />
           <div className="snowflake" />
         </div>
       </div>

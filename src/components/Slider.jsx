@@ -27,7 +27,7 @@ const SimpleSlider = () => {
 
     return (
       <div>
-        <Slider {...parametresSlider}>
+        <Slider {...parametresSlider} className="slider">
           <div onClick={() => navigate("/PageQuiz")}>
             <h3 className="slide-1">26 DECEMBRE</h3>
           </div>

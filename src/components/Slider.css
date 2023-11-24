@@ -1,4 +1,4 @@
-/* .slick-slide {
+.slick-slide {
   transition: opacity 0.5s ease-in-out;
 }
 
@@ -105,3 +105,34 @@
   height: auto;
 }
 /* Style pour les diapositives du slider */
+.slider{
+  width: 80%;
+  margin: 0 auto;
+}
+.slide-1:hover{
+  transition : all 1s ease-in-out;
+  transform: scale(1.1);
+  overflow: hidden;
+ }
+.slide-2:hover{
+  transition : all 1s ease-in-out;
+  transform: scale(1.1);
+ }
+.slide-3:hover{
+  transition : all 1s ease-in-out;
+  transform: scale(1.1);
+ }
+.slide-4:hover{
+  transition : all 1s ease-in-out;
+  transform: scale(1.1);
+ }
+.slide-5:hover{
+  transition : all 1s ease-in-out;
+  transform: scale(1.1);
+ }
+.slide-6:hover{
+  transition : all 1s ease-in-out;
+  transform: scale(1.1);
+ }
+
+
